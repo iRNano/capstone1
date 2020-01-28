@@ -620,6 +620,7 @@ a{
             width: 80%;
             left: 5%;
             z-index: 3;
+            top:45px;
             /* font-size: 3.5rem; */
             /* line-height: 3.5rem; */
         }
@@ -639,6 +640,15 @@ a{
         #contact-form-label{
             font-size: 3.5rem;
         }
+
+        #contact-infos{
+            width:90%;
+        }
+
+        #contact-infos h4{
+            font-size: 1.2rem;
+        }
+        
     
         /**PRODUCTS*/
         .product-lead{
