@@ -51,7 +51,7 @@
 
     <div class="container-fluid eggshell">
       <div class="row static-padding">
-          <div class="col-lg-2 col-12 offset-1">
+          <div class="col-xl-2 col-12 offset-1">
               <nav aria-label="breadcrumb">
                   <ol class="breadcrumb eggshell">
                       <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
@@ -61,30 +61,35 @@
           </div>
       </div> 
       <div class="row justify-content-center">
-          <div class="col-lg-4 col-12 align-self-center">
+          <div class="col-xl-4 col-12 align-self-center">
               <p class="lead rozha contact-lead">happynails is currently located in new manila.</p>
-              <p class="black-text contact-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam officia, voluptatibus 
-                  consequatur nihil magni enim. Id magnam nemo, perspiciatis minus vero ratione voluptatem iste, repudiandae dolorem quia amet! Culpa, officiis.
+              <p class="black-text contact-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor dignissimos amet. Commodi ad, placeat obcaecati in magnam modi assumenda!
               </p>
               
           </div>
-          <div class="col-lg-4 col-12 align-self-center">
-              <img class="about-img img-fluid"src="./assets/images/contact-happynails.jpg" alt="" srcset="">
+          <div class="col-xl-4 col-12 text-center">
+              <img class="about-img img-fluid" id="contact-img" src="./assets/images/contact-happynails.jpg" alt="" srcset="">
           </div>
       </div>
-      <!-- Contact information -->
+      <!-- Contact information --> 
       <div class="row justify-content-center static-padding">
         <div class="col-lg-2 col-12 black-text">
           <h4>Oprating hours</h4>
           <p>
-            Monday - Saturday - 8am - 5pm
-            Sunday - 9am - 4pm
+            Monday to Saturday
+          </p>
+          <p>
+            10am to 7pm
           </p>
         </div>
         <div class="col-lg-2 col-12 black-text">
           <h4>Address</h4>
           <p>
-            The Amaryllis Residences, 12th st., Brgy. Mariana, Quezon City, Philippines
+            The Amaryllis Residences, 12th street, 
+          </p>
+          <p>
+            Brgy. Mariana, Quezon City, Philippines
           </p>
         </div>
         <div class="col-lg-2 col-12 black-text">
@@ -105,7 +110,8 @@
     <div class="container-fluid eggshell">
       <!-- MAP  -->
       <div class="map-container">
-        <iframe id="google-map container-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.567668668739!2d121.03049141517533!3d14.623687080430267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b635568db6c1%3A0xb8ebe37d6da2178c!2sThe%20Amaryllis!5e0!3m2!1sen!2sph!4v1580188509250!5m2!1sen!2sph" width= "1440" height="300" frameborder="0" style="border:0;" allowfullscreen="">  
+        <iframe id="google-map container-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.567668668739!2d121.03049141517533!3d14.623687080430267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b635568db6c1%3A0xb8ebe37d6da2178c!2sThe%20Amaryllis!5e0!3m2!1sen!2sph!4v1580188509250!5m2!1sen!2sph" 
+        width= "100%" height="300px" frameborder="0" style="border:0;" allowfullscreen="">  
         </iframe>
       </div>
 
@@ -119,7 +125,9 @@
 
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="contact-form-title" aria-hidden="true">
           <div class="modal-dialog" role="document">
+             
             <div class="modal-content eggshell ">
+              <div id="test">
               <div class="modal-header">
                 <h5 class="modal-title lead rozha " id="contact-form-title">Contact us</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -144,21 +152,24 @@
                   </form>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <!-- <button type="button" class="btn btn-primary">Send message</button> -->
-                     <div class="alert alert-warning alert-dismissible" role="alert">
-                        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                          <span aria-hidden="false">&times;</span>
-                        </button>
-                    </div>
-                </div>
+                <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                <button id="send-button"type="button" class="btn">Send message</button>
+                <div id="success-alert" class="alert alert-success alert-dismissible" role="alert">
+                    <strong>Thank you for messaging us!</strong> We'll get back to you ASAP!
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="false">&times;</span>
+                    </button>    
+                </div>   
+              </div>
+              </div>
               </div>
             </div>
           </div>
+          <!-- END OF MODAL  -->
         </div>
+        <!-- END OF CONTACT INFO CONTAINER  -->
 
-      <!-- END OF MODAL VIEW  -->
+      
     </div>
     <!-- END OF CONTAINER -->
   
