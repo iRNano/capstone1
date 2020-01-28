@@ -17,7 +17,7 @@
 </head>
 <body>
     <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg fixed-top px-5 pt-3">
+    <nav class="navbar navbar-expand-lg eggshell px-5">
       <a class="navbar-brand rozha" href="./index.html">happynails</a>
       <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,56 +50,118 @@
     <!-- Container -->
 
     <div class="container-fluid eggshell">
-            <div class="row static-padding">
-                <div class="col-lg-2 col-12 offset-1">
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb eggshell">
-                            <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                            <li class="breadcrumb-item"><a href="./contact.html" aria-current="page">Contact</a></li>
-                        </ol>
-                    </nav>
-                </div>
-            </div> 
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-12 align-self-center">
-                    
-                    <p class="lead rozha contact-lead">happynails is currently located in new manila.</p>
-                    <p class="black-text contact-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam officia, voluptatibus 
-                        consequatur nihil magni enim. Id magnam nemo, perspiciatis minus vero ratione voluptatem iste, repudiandae dolorem quia amet! Culpa, officiis.
-                    </p>
-                    
-                </div>
-                <div class="col-lg-4 col-12 align-self-center">
-                    <img class="about-img"src="./assets/images/contact-img.png" alt="" srcset="">
-                </div>
-            </div>
-            <div class="row justify-content-center static-padding">
-              <div class="col-lg-2 col-12 black-text">
-              <h4>Oprating hours</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, distinctio?
+      <div class="row static-padding">
+          <div class="col-lg-2 col-12 offset-1">
+              <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb eggshell">
+                      <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                      <li class="breadcrumb-item"><a href="./contact.html" aria-current="page">Contact</a></li>
+                  </ol>
+              </nav>
+          </div>
+      </div> 
+      <div class="row justify-content-center">
+          <div class="col-lg-4 col-12 align-self-center">
+              <p class="lead rozha contact-lead">happynails is currently located in new manila.</p>
+              <p class="black-text contact-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam officia, voluptatibus 
+                  consequatur nihil magni enim. Id magnam nemo, perspiciatis minus vero ratione voluptatem iste, repudiandae dolorem quia amet! Culpa, officiis.
               </p>
-              </div>
-              <div class="col-lg-2 col-12 black-text">
-              <h4>Address</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. A, assumenda!
-              </p>
-              </div>
-              <div class="col-lg-2 col-12 black-text">
-              <h4>Phone</h4>
-              <p>
-                639988560686
-              </p>
-              </div>
-              <div class="col-lg-2 col-12 black-text">
-              <h4>Email</h4>
-              <p>hello@happynails.com</p>
-              </div>
-            </div>       
-
+              
+          </div>
+          <div class="col-lg-4 col-12 align-self-center">
+              <img class="about-img img-fluid"src="./assets/images/contact-happynails.jpg" alt="" srcset="">
+          </div>
+      </div>
+      <!-- Contact information -->
+      <div class="row justify-content-center static-padding">
+        <div class="col-lg-2 col-12 black-text">
+          <h4>Oprating hours</h4>
+          <p>
+            Monday - Saturday - 8am - 5pm
+            Sunday - 9am - 4pm
+          </p>
+        </div>
+        <div class="col-lg-2 col-12 black-text">
+          <h4>Address</h4>
+          <p>
+            The Amaryllis Residences, 12th st., Brgy. Mariana, Quezon City, Philippines
+          </p>
+        </div>
+        <div class="col-lg-2 col-12 black-text">
+          <h4>Phone</h4>
+          <p>
+              639988560686
+          </p>
+        </div>
+        <div class="col-lg-2 col-12 black-text">
+          <h4>Email</h4>
+          <p>hello@happynails.com</p>
+        </div>
+      </div>
     </div>
+
+    <!-- CONTACT INFORMATION SECTION -->
+      
+    <div class="container-fluid eggshell">
+      <!-- MAP  -->
+      <div class="map-container">
+        <iframe id="google-map container-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.567668668739!2d121.03049141517533!3d14.623687080430267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b635568db6c1%3A0xb8ebe37d6da2178c!2sThe%20Amaryllis!5e0!3m2!1sen!2sph!4v1580188509250!5m2!1sen!2sph" width= "1440" height="300" frameborder="0" style="border:0;" allowfullscreen="">  
+        </iframe>
+      </div>
+
+      
     
+      <!-- CONTACT FORM -->
+      <div class="contact-form">
+        <h3 class="lead rozha text-center" id="contact-form-label" data-toggle="modal" data-target="#exampleModal">Message us</h3>
+      </div>
+        <!-- MODAL VIEW -->
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="contact-form-title" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content eggshell ">
+              <div class="modal-header">
+                <h5 class="modal-title lead rozha " id="contact-form-title">Contact us</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="name" class="form-control" id="name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Message</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                    
+                  </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-primary">Send message</button> -->
+                     <div class="alert alert-warning alert-dismissible" role="alert">
+                        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                          <span aria-hidden="false">&times;</span>
+                        </button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- END OF MODAL VIEW  -->
+    </div>
+    <!-- END OF CONTAINER -->
+  
 
     <!-- JQuery -->
     <script src="./assets/js/jquery-3.4.1.min.js"></script>
@@ -107,5 +169,7 @@
     <script src="./assets/js/popper.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="./assets/js/bootstrap.min.js"></script>
+    <!-- External JS -->
+    <script type="text/javascript" src="./assets/js/script.js"></script>
 </body>
 </html>
