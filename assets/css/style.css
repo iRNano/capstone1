@@ -139,8 +139,12 @@ a{
 .card-img-top{
     width: 100%;
     padding: 10% 5%;
+    transition: .5s;
 }
 
+.card-img-top:hover{
+    transform: scale(1.2);
+}
 .card-body{
     padding: 0 0 0 5%;
 }
