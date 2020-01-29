@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
     <title>happynails | Home</title>
     <!-- Bootsrap CSS -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
@@ -13,13 +16,15 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Rozha+One&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/1d5b05ae20.js" crossorigin="anonymous"></script>
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="animate.min.css">
 
 </head>
 <body>
     
     <!-- NAV BAR -->
 
-        <nav class="navbar navbar-expand-lg px-5 queen-pink">
+        <nav class="navbar navbar-expand-lg px-md-5 queen-pink fixed-top">
           <a class="navbar-brand rozha" href="./index.html">happynails</a>  
           <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -50,21 +55,22 @@
         </nav>
         <!-- Container -->
 
-        <div class="container-fluid queen-pink">
+        <div class="container-fluid queen-pink main-container">
+           
            <div class="static-padding">
-            </div>
+           </div>
             <!-- First row for main image -->
-            <div class="row justify-content-center px-5 index-relative">
+            <div class="row justify-content-center px-sm-5 index-relative">
                 <!-- main left image -->
-                <div class="col-12 order-lg-3 col-md-4 order-xl-1 col-xl-2 align-self-center py-5">
+                <div class="col-6 order-3 col-md-4 order-xl-1 col-xl-2 align-self-center py-5">
                     <img id="main-left"class="img-fluid"src="./assets/images/main-img2.png" alt="">
                 </div>
                 <!-- main center image -->
-                <div   class="col-12 order-lg-2 col-md-12 order-xl-2 col-xl-4 text-center py-5">               
+                <div   class="col-12 order-2 col-md-12 order-xl-2 col-xl-4 text-center py-5">               
                     <img class="img-fluid"id="main-img"src="./assets/images/main-img.png" alt="">
                 </div>
                 <!-- main right image -->
-                <div class="col-xl-2 order-xl-3 order-lg-1 col-md-6 col-12 align-self-center">
+                <div class="col-xl-2 order-xl-3 order-3 order-md-1 col-md-6 col-6 align-self-center">
                     <div id="main-right">
                         <h1 class="lead rozha">
                             glam
@@ -74,11 +80,15 @@
                         </h1>                
                         <img class="img-fluid" id="main-right-img"src="./assets/images/bipa-1@3x.png" alt="">
                     </div>
-                    <p id="main-right-text">LOREM IPSUM DOLOR.</p>
+                    <p id="main-right-text">HIGH QUALITY PRESS-ON</p>
                 </div>
             </div>
+            <div class="static-padding"></div>
         </div>
-    
+        
+        <footer class="footer m-auto text-center queen-pink">
+            <span class="footer-style rozha">happynails</span> 2020 &copy;
+        </footer>
 
     <!-- JQuery -->
     <script src="./assets/js/jquery-3.4.1.min.js"></script>

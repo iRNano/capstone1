@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
     <title>happynails | Contact</title>
     <!-- Bootsrap CSS -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
@@ -17,7 +20,7 @@
 </head>
 <body>
     <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg eggshell px-5">
+    <nav class="navbar navbar-expand-lg eggshell px-md-5 fixed-top">
       <a class="navbar-brand rozha" href="./index.html">happynails</a>
       <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,7 +54,7 @@
 
     <div class="container-fluid eggshell">
       <div class="row static-padding">
-          <div class="col-xl-2 col-12 offset-1">
+          <div class="col-xl-2 col-8 offset-1">
               <nav aria-label="breadcrumb">
                   <ol class="breadcrumb eggshell">
                       <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
@@ -62,19 +65,19 @@
       </div> 
       <div class="row justify-content-center">
           <div class="col-xl-4 col-12 align-self-center">
-              <p class="lead rozha contact-lead">happynails is currently located in new manila.</p>
+              <h1 class="lead rozha contact-lead">happynails is currently located in new manila.</h1>
               <p class="black-text contact-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor dignissimos amet. Commodi ad, placeat obcaecati in magnam modi assumenda!
+               Our prime location is situated close to many shops, restaurants and entertainment in the Metro. If you are not from the Metro, happynails provides door-step delivery!
               </p>
               
           </div>
-          <div class="col-xl-4 col-12 text-center">
+          <div class="col-xl-4 col-lg-12  col-12 text-center">
               <img class="about-img img-fluid" id="contact-img" src="./assets/images/contact-happynails.jpg" alt="" srcset="">
           </div>
       </div>
       <!-- Contact information --> 
       <div class="row justify-content-center static-padding mx-auto" id="contact-infos">
-        <div class="col-lg-3 col-xl-2 col-12 px-3 black-text" >
+        <div class="col-lg-3 col-xl-2 col-md-6 col-12 px-3 black-text" >
           <h4><strong>Operating hours</strong></h4>
           <p>
             Monday to Saturday
@@ -83,7 +86,7 @@
             10am to 7pm
           </p>
         </div>
-        <div class="col-lg-3 col-xl-2 col-12 black-text">
+        <div class="col-lg-3 col-xl-2 col-md-6 col-12 black-text">
           <h4><strong>Address</strong></h4>
           <p>
             The Amaryllis Residences, 12th street, 
@@ -92,13 +95,13 @@
             Brgy. Mariana, Quezon City, Philippines
           </p>
         </div>
-        <div class="col-lg-3 col-xl-2 col-12 black-text">
+        <div class="col-lg-3 col-xl-2 col-md-6 col-12 black-text">
           <h4><strong>Phone</strong></h4>
           <p>
               639988560686
           </p>
         </div>
-        <div class="col-lg-3 col-xl-2 col-12 black-text">
+        <div class="col-lg-3 col-xl-2 col-md-6col-12 black-text">
           <h4><strong>Email</strong></h4>
           <p>hello@happynails.com</p>
         </div>
@@ -107,59 +110,62 @@
 
     <!-- CONTACT INFORMATION SECTION -->
       
-    <div class="container-fluid eggshell">
+    <div class="container-fluid eggshell h-100 contact-info-container">
       <!-- MAP  -->
-      <div class="map-container">
-        <iframe id="google-map container-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.567668668739!2d121.03049141517533!3d14.623687080430267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b635568db6c1%3A0xb8ebe37d6da2178c!2sThe%20Amaryllis!5e0!3m2!1sen!2sph!4v1580188509250!5m2!1sen!2sph" 
-        width= "100%" height="300px" frameborder="0" style="border:0;" allowfullscreen="">  
-        </iframe>
-      </div>
 
-      
-    
-      <!-- CONTACT FORM -->
-      <div class="contact-form">
-        <h3 class="lead rozha text-center" id="contact-form-label" data-toggle="modal" data-target="#exampleModal">Message us</h3>
-      </div>
+
+      <form class="contact-form">
+        <div class="row justify-content-center pt-5">
+          <div class="col-xl-5 col-lg-8 col-12">
+            <div class="map-container">
+              <iframe id="google-map container-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.567668668739!2d121.03049141517533!3d14.623687080430267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b635568db6c1%3A0xb8ebe37d6da2178c!2sThe%20Amaryllis!5e0!3m2!1sen!2sph!4v1580188509250!5m2!1sen!2sph" 
+              width= "100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="">  
+              </iframe>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-8 col-12 border border-1 contact-form-input"> 
+            <h3 class="lead rozha text-white text-center" id="contact-form-label">Contact Us</h3>
+            <div class="form-group">
+              <label for="name"><strong>Name</strong></label>
+              <input type="name" class="form-control form-control-sm" id="contact-name" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1"><strong>Email address</strong></label>
+              <input type="email" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1"><strong>Message</strong></label>
+              <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="5"></textarea>
+            </div>
+            <button id="send-button"type="button" class="btn btn-block" data-toggle="modal" data-target="#contactUs">Send message</button>
+          </div>
+        </div>
+                    
+      </form>
         <!-- MODAL VIEW -->
 
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="contact-form-title" aria-hidden="true">
+        <div class="modal fade" id="contactUs" tabindex="-1" role="dialog" aria-labelledby="contact-form-title" aria-hidden="true">
           <div class="modal-dialog" role="document">
              
             <div class="modal-content eggshell ">
               <div id="test">
-              <div class="modal-header">
+       <!--        <div class="modal-header">
                 <h5 class="modal-title lead rozha " id="contact-form-title">Contact us</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
-              </div>
+              </div> -->
               <div class="modal-body">
-                  <form>
-                    <div class="form-group">
-                      <label for="name">Name</label>
-                      <input type="name" class="form-control" id="name" placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleFormControlTextarea1">Message</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                    </div>
-                    
-                  </form>
-              </div>
-              <div class="modal-footer">
-                <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-                <button id="send-button"type="button" class="btn">Send message</button>
-                <div id="success-alert" class="alert alert-success alert-dismissible" role="alert">
-                    <strong>Thank you for messaging us!</strong> We'll get back to you ASAP!
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                  <div id="success-alert" class="alert alert-success alert-dismissible" role="alert">
+                    <strong>Hi Thank you for messaging us!</strong> 
+                    <p>We'll get back to you ASAP!</p>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="false">&times;</span>
                     </button>    
-                </div>   
+                </div>
               </div>
               </div>
               </div>
@@ -172,7 +178,9 @@
       
     </div>
     <!-- END OF CONTAINER -->
-  
+    <footer class="footer mt-auto text-center eggshell">
+            <span class="footer-style rozha">happynails</span> 2020 &copy;
+    </footer>
 
     <!-- JQuery -->
     <script src="./assets/js/jquery-3.4.1.min.js"></script>
