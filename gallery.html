@@ -1,239 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/images/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon-16x16.png"
+    />
     <title>happynails | Gallery</title>
     <!-- Bootsrap CSS -->
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
     <!-- External CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Rozha+One&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Rozha+One&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/1d5b05ae20.js" crossorigin="anonymous"></script>
-
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/1d5b05ae20.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <!-- Nav bar -->
-    <nav class="navbar navbar-expand-lg bazaar px-md-5 fixed-top">
-      <a class="navbar-brand rozha" href="./index.html">happynails</a>
-      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="wrapper bazaar">
+      <header>
+        <nav class="navbar navbar-expand-lg bazaar px-md-5">
+          <a class="navbar-brand rozha" href="./index.html">happynails</a>
+          <button
+            class="navbar-toggler navbar-dark"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="link-items-container ">
-            <ul class="navbar-nav mr-auto justify-content-center">
-              <li class="nav-item active">
-                <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./gallery.html">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">About</a>
-              </li>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="link-items-container">
+              <ul class="navbar-nav mr-auto justify-content-center">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./index.html"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
                 <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact</a>
-              </li>
-            </ul>
-        </div>
-        <div class="socials">
-            <i class="fab fa-instagram fa-lg"></i>
-            <i class="fab fa-facebook-square fa-lg"></i>
-        </div>   
-      </div>
-    </nav>
-
-    <!-- Container -->
-    <div class="container-fluid bazaar">
-        <div class="row static-padding">
-            <div class="col-lg-2 col-6 offset-1">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb bazaar">
-                        <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                        <li class="breadcrumb-item"><a href="./gallery.html" aria-current="page">Gallery</a></li>
-                    </ol>
-                </nav>
+                  <a class="nav-link" href="./gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+              </ul>
             </div>
-        </div> 
-        <!-- Grid of products -->
-        <div class="row justify-content-center">
-            <div class="col-lg-12 col-12  text-center pb-5">
-                <h4 class="lead rozha product-lead">products</h4>
+            <div class="socials">
+              <i class="fab fa-instagram fa-lg"></i>
+              <i class="fab fa-facebook-square fa-lg"></i>
+            </div>
+          </div>
+        </nav>
+        <div class="col-lg-2 col-6 offset-1">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bazaar">
+              <li class="breadcrumb-item">
+                <a href="./index.html">Home</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="./gallery.html" aria-current="page">Gallery</a>
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Container -->
+      <main class="container-fluid">
+        <div class="main-content">
+          <div class="row static-padding"></div>
+          <!-- Grid of products -->
+          <div class="row justify-content-center">
+            <div class="col-lg-12 col-12 text-center pb-5">
+              <h4 class="lead rozha product-lead">products</h4>
             </div>
 
             <!-- Cards -->
             <div class="col-lg-3 col-10 col-md-4">
-                <div class="card bazaar border-0" style="width: 100%;">
-                  <img class="card-img-top" src="./assets/images/bipa227x-nails-2@3x.png" data-toggle="modal" 
-                  data-target="#exampleModal" data-title="Kiss Glam" data-price="999.99 Php" data-src="./assets/images/bipa227x-nails-2@3x.png">
-                  <div class="card-body">
-                    <p class="card-title">Kiss Glam</p>
-                    <p class="card-text">P 999.99</p>
-                  </div>
+              <div class="card bazaar border-0" style="width: 100%">
+                <img
+                  class="card-img-top"
+                  src="./assets/images/bipa227x-nails-2@3x.png"
+                  data-toggle="modal"
+                  data-target="#exampleModal"
+                  data-title="Kiss Glam"
+                  data-price="999.99 Php"
+                  data-src="./assets/images/bipa227x-nails-2@3x.png"
+                />
+                <div class="card-body">
+                  <p class="card-title">Kiss Glam</p>
+                  <p class="card-text">P 999.99</p>
                 </div>
+              </div>
             </div>
 
             <div class="col-lg-3 col-10 col-md-4">
-                <div class="card bazaar border-0" style="width: 100%;">
-                  <img class="card-img-top" src="./assets/images/bipa-3@3x.png" alt="Card image cap" data-toggle="modal" 
-                  data-title="Dashing Diva" data-target="#exampleModal" data-price="999.99 Php" data-src="./assets/images/bipa-3@3x.png">
-                  <div class="card-body">
-                    <p class="card-title">Dashing Diva</p>
-                    <p class="card-text">P 999.99</p>
-                  </div>
+              <div class="card bazaar border-0" style="width: 100%">
+                <img
+                  class="card-img-top"
+                  src="./assets/images/bipa-3@3x.png"
+                  alt="Card image cap"
+                  data-toggle="modal"
+                  data-title="Dashing Diva"
+                  data-target="#exampleModal"
+                  data-price="999.99 Php"
+                  data-src="./assets/images/bipa-3@3x.png"
+                />
+                <div class="card-body">
+                  <p class="card-title">Dashing Diva</p>
+                  <p class="card-text">P 999.99</p>
                 </div>
+              </div>
             </div>
-                
-            
+
             <div class="col-lg-3 col-10 col-md-4">
-                <div class="card bazaar border-0" style="width: 100%;">
-                  <img class="card-img-top" src="./assets/images/bipa-2@3x.png" alt="Card image cap" data-toggle="modal" 
-                  data-title="NailHur" data-target="#exampleModal" data-price="999.99 Php" data-src="./assets/images/bipa-2@3x.png">
-                  <div class="card-body">
-                    <p class="card-title">NailHur</p>
-                    <p class="card-text">P 999.99</p>
-                  </div>
+              <div class="card bazaar border-0" style="width: 100%">
+                <img
+                  class="card-img-top"
+                  src="./assets/images/bipa-2@3x.png"
+                  alt="Card image cap"
+                  data-toggle="modal"
+                  data-title="NailHur"
+                  data-target="#exampleModal"
+                  data-price="999.99 Php"
+                  data-src="./assets/images/bipa-2@3x.png"
+                />
+                <div class="card-body">
+                  <p class="card-title">NailHur</p>
+                  <p class="card-text">P 999.99</p>
                 </div>
+              </div>
             </div>
             <!-- End of first row of cards - DESKTOP -->
-        </div> 
+          </div>
 
-        <!-- End of first grid row -->
+          <!-- End of first grid row -->
 
-        <div class="row justify-content-center pt-5">
-             <div class="col-lg-3 col-10 col-md-4">
-                <div class="card bazaar border-0" style="width: 100%;">
-                  <img class="card-img-top" src="./assets/images/bipa232x-nails-2@3x.png" alt="Card image cap" data-toggle="modal" 
-                  data-title="Marmalade" data-target="#exampleModal" data-price="999.99 Php" data-src="./assets/images/bipa232x-nails-2@3x.png">
-                  <div class="card-body">
-                    <p class="card-title">Marmalade</p>
-                    <p class="card-text">P 999.99</p>
-                  </div>
+          <div class="row justify-content-center pt-5">
+            <div class="col-lg-3 col-10 col-md-4">
+              <div class="card bazaar border-0" style="width: 100%">
+                <img
+                  class="card-img-top"
+                  src="./assets/images/bipa232x-nails-2@3x.png"
+                  alt="Card image cap"
+                  data-toggle="modal"
+                  data-title="Marmalade"
+                  data-target="#exampleModal"
+                  data-price="999.99 Php"
+                  data-src="./assets/images/bipa232x-nails-2@3x.png"
+                />
+                <div class="card-body">
+                  <p class="card-title">Marmalade</p>
+                  <p class="card-text">P 999.99</p>
                 </div>
+              </div>
             </div>
 
             <div class="col-lg-3 col-10 col-md-4">
-                <div class="card bazaar border-0" style="width: 100%;">
-                  <img class="card-img-top" src="./assets/images/bipa250-nails-2@3x.png" alt="Card image cap" data-toggle="modal" 
-                  data-title="The Nailest" data-target="#exampleModal" data-price="999.99 Php" data-src="./assets/images/bipa250-nails-2@3x.png" data-price="P 999.99">
-                  <div class="card-body">
-                    <p class="card-title">The Nailest</p>
-                    <p class="card-text">P 999.99</p>
-                  </div>
+              <div class="card bazaar border-0" style="width: 100%">
+                <img
+                  class="card-img-top"
+                  src="./assets/images/bipa250-nails-2@3x.png"
+                  alt="Card image cap"
+                  data-toggle="modal"
+                  data-title="The Nailest"
+                  data-target="#exampleModal"
+                  data-price="999.99 Php"
+                  data-src="./assets/images/bipa250-nails-2@3x.png"
+                  data-price="P 999.99"
+                />
+                <div class="card-body">
+                  <p class="card-title">The Nailest</p>
+                  <p class="card-text">P 999.99</p>
                 </div>
-            </div>
-                
-            
-            <div class="col-lg-3 col-10 col-md-4">
-                <div class="card bazaar border-0" style="width: 100%;">
-                  <img class="card-img-top" src="./assets/images/bipa170-nails-v2@3x.png" alt="Card image cap" data-toggle="modal" 
-                  data-title="ESZakka" data-target="#exampleModal" data-price="999.99 Php" data-src="./assets/images/bipa170-nails-v2@3x.png">
-                  <div class="card-body">
-                    <p class="card-title">ESZakka</p>
-                    <p class="card-text">P 999.99</p>
-                  </div>
-                </div>
-            </div>
-            
-        </div>
-
-        <!-- End of 2nd row of cards - DESKTOP -->
-        <div class="row justify-content-center py-5">
-             <div class="col-lg-3 col-10 col-md-4">
-                <div class="card bazaar border-0" style="width: 100%;">
-                  <img class="card-img-top" src="./assets/images/bipl03-nails@3x.png" alt="Card image cap" data-toggle="modal" 
-                  data-title="Static" data-target="#exampleModal" data-price="999.99 Php" data-src="./assets/images/bipl03-nails@3x.png">
-                  <div class="card-body">
-                    <p class="card-title">Static</p>
-                    <p class="card-text">P 999.99</p>
-                  </div>
-                </div>
+              </div>
             </div>
 
             <div class="col-lg-3 col-10 col-md-4">
-                <div class="card bazaar border-0" style="width: 100%;">
-                  <img class="card-img-top" src="./assets/images/bipl04-nails@3x.png" alt="Card image cap" data-toggle="modal" 
-                  data-title="ImPress" data-target="#exampleModal" data-src="./assets/images/bipl04-nails@3x.png" data-price="999.99 Php">
-                  <div class="card-body">
-                    <p class="card-title">ImPress</p>
-                    <p class="card-text">P 999.99</p>
-                  </div>
+              <div class="card bazaar border-0" style="width: 100%">
+                <img
+                  class="card-img-top"
+                  src="./assets/images/bipa170-nails-v2@3x.png"
+                  alt="Card image cap"
+                  data-toggle="modal"
+                  data-title="ESZakka"
+                  data-target="#exampleModal"
+                  data-price="999.99 Php"
+                  data-src="./assets/images/bipa170-nails-v2@3x.png"
+                />
+                <div class="card-body">
+                  <p class="card-title">ESZakka</p>
+                  <p class="card-text">P 999.99</p>
                 </div>
+              </div>
             </div>
-                
-            
-            <div class="col-lg-3 col-10 col-md-4">
-                <div class="card bazaar border-0" style="width: 100%;">
-                  <img class="card-img-top" src="./assets/images/bipl06-nails@3x.png" alt="Card image cap" data-toggle="modal" 
-                  data-title="Très She Talons" data-target="#exampleModal" data-price="999.99 Php" data-src="./assets/images/bipl06-nails@3x.png">
-                  <div class="card-body">
-                    <p class="card-title">Très She Talons</p>
-                    <p class="card-text">P 999.99</p>
-                  </div>
-                </div>
-            </div>
-            
-        </div>
-  </div>
-        <!-- MODAL VIEW -->
+          </div>
 
-        <div class="white-text modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg modal-sm" role="document">
-            <div class="modal-content bazaar">
- 
-              <div class="modal-body">
-                <div class="row justify-content-end">
-                  <div class="col"> 
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>  
+          <!-- End of 2nd row of cards - DESKTOP -->
+          <div class="row justify-content-center py-5">
+            <div class="col-lg-3 col-10 col-md-4">
+              <div class="card bazaar border-0" style="width: 100%">
+                <img
+                  class="card-img-top"
+                  src="./assets/images/bipl03-nails@3x.png"
+                  alt="Card image cap"
+                  data-toggle="modal"
+                  data-title="Static"
+                  data-target="#exampleModal"
+                  data-price="999.99 Php"
+                  data-src="./assets/images/bipl03-nails@3x.png"
+                />
+                <div class="card-body">
+                  <p class="card-title">Static</p>
+                  <p class="card-text">P 999.99</p>
                 </div>
-                <div class="row">
-                  <div class="col-lg-8 col-12">
-                      <img id="modal-img" class="card-img-top img-fluid">
-                  </div>
-                  <div class="col-lg-4 col-12  align-self-center">
-                    <h1 class="rozha mb-5">happynails</h1>
-                    <div class="product-details">
-                      <p class="modal-title"></p>
-                      <p class="modal-price mt-2"></p>
-                      <select class="custom-select bazaar">
-                          <option selected>Select...</option>
-                          <option value="1">1</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option>
-                          <option value="4">4</option>
-                          <option value="5">5</option>
-                          <option value="6">6</option>
-                          <option value="7">7</option>
-                          <option value="8">8</option>
-                          <option value="9">9</option>
-                        </select>
-                      <button type="button" class="btn bazaar mt-3">ADD TO BAG</button>
-                    </div>
-                  </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-10 col-md-4">
+              <div class="card bazaar border-0" style="width: 100%">
+                <img
+                  class="card-img-top"
+                  src="./assets/images/bipl04-nails@3x.png"
+                  alt="Card image cap"
+                  data-toggle="modal"
+                  data-title="ImPress"
+                  data-target="#exampleModal"
+                  data-src="./assets/images/bipl04-nails@3x.png"
+                  data-price="999.99 Php"
+                />
+                <div class="card-body">
+                  <p class="card-title">ImPress</p>
+                  <p class="card-text">P 999.99</p>
                 </div>
-                  
-                  
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-10 col-md-4">
+              <div class="card bazaar border-0" style="width: 100%">
+                <img
+                  class="card-img-top"
+                  src="./assets/images/bipl06-nails@3x.png"
+                  alt="Card image cap"
+                  data-toggle="modal"
+                  data-title="Très She Talons"
+                  data-target="#exampleModal"
+                  data-price="999.99 Php"
+                  data-src="./assets/images/bipl06-nails@3x.png"
+                />
+                <div class="card-body">
+                  <p class="card-title">Très She Talons</p>
+                  <p class="card-text">P 999.99</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </main>
+      <!-- MODAL VIEW -->
 
-        <!-- END OF MODAL VIEW  -->
-    
-    <!-- Foooter -->
-    <footer class="footer m-auto text-center bazaar">
-            <span class="footer-style rozha">happynails</span> 2020 &copy;
-    </footer>
+      <div
+        class="white-text modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg modal-sm" role="document">
+          <div class="modal-content bazaar">
+            <div class="modal-body">
+              <div class="row justify-content-end">
+                <div class="col">
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-8 col-12">
+                  <img id="modal-img" class="img-fluid" />
+                </div>
+                <div class="col-lg-4 col-12 align-self-center">
+                  <h1 class="rozha mb-5">happynails</h1>
+                  <div class="product-details">
+                    <p class="modal-title"></p>
+                    <p class="modal-price mt-2"></p>
+                    <select class="custom-select bazaar">
+                      <option selected>Select...</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                    <button type="button" class="btn bazaar mt-3">
+                      ADD TO BAG
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- END OF MODAL VIEW  -->
+
+      <!-- Foooter -->
+      <footer class="footer m-auto text-center bazaar">
+        <span class="footer-style rozha">happynails</span> 2020 &copy;
+      </footer>
+    </div>
 
     <!-- JQuery -->
     <script src="./assets/js/jquery-3.4.1.min.js"></script>
@@ -243,5 +363,5 @@
     <script src="./assets/js/bootstrap.min.js"></script>
     <!-- External JS -->
     <script type="text/javascript" src="./assets/js/script.js"></script>
-</body>
+  </body>
 </html>
